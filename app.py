@@ -7,7 +7,7 @@ from gtts import gTTS
 import os
 
 # Summarization pipeline using Hugging Face transformers
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="t5-small")
 
 def get_youtube_video_id(url):
     """Extract YouTube video ID from URL"""
